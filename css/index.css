@@ -231,7 +231,7 @@ h3 {
 }
 
 .desc i {
-	font-family: 'Font Awesome 5 Free'; font-weight: 800; font-style: normal; font-size: 1vw;
+	font-family: 'Font Awesome 5 Free'; font-weight: 800; font-style: normal; font-size: 1em;
 }
 
 /** FOOTER **/
@@ -240,7 +240,7 @@ h3 {
 }
 
 .footer i {
-	font-family: 'Font Awesome 5 Free'; font-size: 1vw; color: rgba(var(--bg1) / var(--op25)); font-weight: 800; font-style: normal; margin: 0 1.1vw;
+	font-family: 'Font Awesome 5 Free'; font-size: 1em; color: rgba(var(--bg1) / var(--op25)); font-weight: 800; font-style: normal; margin: 0 1.1vw;
 }
 
 .footer b {
