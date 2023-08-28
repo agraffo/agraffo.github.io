@@ -255,7 +255,7 @@ h3 {
 	body.dark #navbar {background-image: url(bg1-rot.png);}
 	#wrapper {margin-top: 15vw;}
 	.section {margin-top: 15vw;}
-	.header {width: 100%;}
+	.header {width: 100%; margin-top: 2vw;}
 	.header span {font-size: 2em; margin-left: 0 !important;}
 	.header h2 {font-size: 10em;}
 	.desc {margin-left: 0; width: 100%; font-size: 2.5em; margin-top: 30vw;}
