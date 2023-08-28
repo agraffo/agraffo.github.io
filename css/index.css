@@ -246,3 +246,14 @@ h3 {
 .footer b {
 	margin-left: 0.5vw;
 }
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 700px) {
+	body {line-height: 3.5em;}
+	.header {width: 100%;}
+	.header span {font-size: 3em; margin-left: 0 !important;}
+	.header h2 {font-size: 10vw;}
+	.desc {margin-left: 0; width: 100%; font-size: 2.5em;}
+  .desc span:hover:after {opacity: 0;}
+  .grid {width: 100%;}
+}
