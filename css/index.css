@@ -252,7 +252,7 @@ h3 {
 	body {line-height: 4em; background-image: url(bg1-rot.png);}
 	body.dark {background-image: url(bg2-rot.png);}
 	#navbar {background-image: url(bg1-rot.png);}
-	body.dark #navbar {background-image: url(bg1-rot.png);}
+	body.dark #navbar {background-image: url(bg2-rot.png);}
 	#wrapper {margin-top: 15vw;}
 	.section {margin-top: 15vw;}
 	.header {width: 100%; margin-top: 2vw;}
