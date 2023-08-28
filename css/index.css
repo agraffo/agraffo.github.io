@@ -260,5 +260,5 @@ h3 {
 	.grid {width: 100% !important;}
 	.grid i {font-size: 6em;}
 	h3 {font-size:4em;}
-	.section.frow .desc {margin-top: 10vw;}
+	.section.frow .desc {margin-top: 0;}
 }
