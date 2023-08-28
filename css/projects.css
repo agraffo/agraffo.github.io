@@ -116,7 +116,7 @@ a:hover, a:hover i {
 
 /** NAVBAR **/
 #navbar {
-	height: 5vw; box-sizing: border-box; line-height: 16px;
+	height: 5vw; box-sizing: border-box; line-height: 1em;
 	border-bottom: var(--brd1); position: fixed; top: 0;
 	display: flex; align-items: center; justify-content: space-between;
 	background-image: url(bg1.png); transition: 0.5s ease-out; z-index: 9;
@@ -232,7 +232,7 @@ body.dark .lightswitch {
 }
 
 .container i {
-	font-family: 'Font Awesome 5 Free'; font-size: 1.8vw; color: rgba(var(--bg1) / var(--op85)); font-weight: 800; font-style: normal;
+	font-family: 'Font Awesome 5 Free'; font-size: 1.5em; color: rgba(var(--bg1) / var(--op85)); font-weight: 800; font-style: normal;
 }
 
 .container a {
@@ -240,7 +240,7 @@ body.dark .lightswitch {
 }
 
 h3 {
-  text-transform: uppercase; font-family: Fjalla One; font-size: 1.7vw;
+  text-transform: uppercase; font-family: Fjalla One; font-size: 1.8em;
 }
 
 .line {
@@ -248,7 +248,7 @@ h3 {
 }
 
 .desc i {
-	font-family: 'Font Awesome 5 Free'; font-weight: 800; font-style: normal; font-size: 1vw;
+	font-family: 'Font Awesome 5 Free'; font-weight: 800; font-style: normal; font-size: 1em; margin-left: 0.5vw;
 }
 
 /** GLASS **/
