@@ -329,6 +329,7 @@ h3 {
 	body.dark #navbar {background-image: url(bg2-rot.png);}
 	#wrapper {margin-top: 15vw;}
 	.section {width: 90%; margin: 0 auto;}
+	.projects {height: 100%;}
 	.section.glass {margin-top: 25vw; width: 90%; height: 25%; margin: 0 auto;}
 	.section {margin-top: 10vw;}
 	.w45 {width: 100%;}
@@ -336,5 +337,4 @@ h3 {
 	.skills { font-size: 2em; }
         h3 {font-size:3.5em;}
 	.container i { font-size: 3em; }
-        .footer {display: none;}
 }
