@@ -337,4 +337,5 @@ h3 {
 	.skills { font-size: 2em; }
         h3 {font-size:3.5em;}
 	.container i { font-size: 3em; }
+	.footer {display: none;}
 }
