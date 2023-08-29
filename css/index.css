@@ -19,7 +19,7 @@ body, html {
 	color: rgba(var(--bg1) / var(--op85));
 	font-family: Fira Code;
 	font-weight: 400;
-	font-size: 1em; 
+	font-size: 16px; 
 }
 
 body {
