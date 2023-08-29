@@ -21,6 +21,7 @@ body, html {
 	font-family: Fira Code;
 	font-weight: 400;
 	font-size: 1.1vw; 
+	overflow: hidden;
 }
 
 body {
@@ -323,7 +324,7 @@ h3 {
 
 /** MEDIA QUERIES **/
 @media only screen and (max-width: 845px) {
-	body {line-height: 4em; background-image: url(bg1-rot.png); width: 100%;}
+	body {line-height: 4em; background-image: url(bg1-rot.png); width: 100%; overflow: auto;}
 	body.dark {background-image: url(bg2-rot.png);}
 	#navbar {background-image: url(bg1-rot.png); font-size: 3em; height: 10vw;}
 	body.dark #navbar {background-image: url(bg2-rot.png);}
@@ -337,5 +338,4 @@ h3 {
 	.skills { font-size: 2em; }
         h3 {font-size:3.5em;}
 	.container i { font-size: 3em; }
-	.footer {display: none;}
 }
