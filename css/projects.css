@@ -320,3 +320,21 @@ h3 {
 .footer b {
 	margin-left: 0.5vw;
 }
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 845px) {
+	body {line-height: 4em; background-image: url(bg1-rot.png); width: 100%;}
+	body.dark {background-image: url(bg2-rot.png);}
+	#navbar {background-image: url(bg1-rot.png); font-size: 3em; height: 10vw;}
+	body.dark #navbar {background-image: url(bg2-rot.png);}
+	#wrapper {margin-top: 15vw;}
+	.section {width: 90%; margin: 0 auto;}
+	.section.glass {margin-top: 25vw; width: 90%; height: 25%; margin: 0 auto;}
+	.section {margin-top: 10vw;}
+	.w45 {width: 100%;}
+	.dsc {font-size: 3em}
+	.skills { font-size: 2em; }
+        h3 {font-size:4em;}
+	.container i { font-size: 3em; }
+        .footer {width: 70vw; font-size: 2em;}
+}
