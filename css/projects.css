@@ -334,7 +334,7 @@ h3 {
 	.w45 {width: 100%;}
 	.dsc {font-size: 3em}
 	.skills { font-size: 2em; }
-        h3 {font-size:4em;}
+        h3 {font-size:3.5em;}
 	.container i { font-size: 3em; }
-        .footer {width: 70vw; font-size: 2em;}
+        .footer {display: none;}
 }
