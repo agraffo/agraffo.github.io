@@ -1,0 +1,240 @@
+:root {
+	--op85: 85%;
+	--op25: 25%;
+	--acc1: #D98412;
+	--bg1: 44 44 44;
+	--bg2: 255 255 255;
+	--brd1: 1px solid rgba(var(--bg1) / var(--op85));
+}
+
+body.dark {
+	--bg1: 255 255 255;
+	--bg2: 44 44 44;
+	--brd1: 1px solid rgba(var(--bg1) / var(--op85));
+}
+
+
+body, html {
+	width: 100%; height: 100%; margin: 0;
+	scroll-behavior: smooth;
+	color: rgba(var(--bg1) / var(--op85));
+	font-family: Fira Code;
+	font-weight: 400;
+	font-size: 1.1vw; 
+}
+
+body {
+	background-image: url(bg1.png); transition: 0.5s ease-out;
+	background-size: cover; background-attachment: fixed; background-repeat: no-repeat;
+	line-height: 1.3em;  height: auto;
+}
+
+body.dark {
+	background-image: url(bg2.png); transition: 0.5s ease-out; 
+}
+
+a, i {
+  text-transform: uppercase; text-decoration: none; color: rgba(var(--bg1)); transition: 0.5s ease-out;
+}
+
+a:hover, a:hover i {
+	color: var(--acc1); transition: 0.5s ease-out; 
+}
+
+/** VARIABLES **/
+.hauto {
+	height: auto;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.h80 {
+	height: 80%;
+}
+
+.m125 {
+	margin-top: 8.5vw;
+}
+
+.m60 {
+	margin-top: 4vw;
+}
+
+.m25 {
+	margin-top: 1.7vw;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.w77 {
+	width: 77vw;
+}
+
+.w50 {width: 50vw;}
+
+.w45 {width: 45vw;}
+
+.w40 {
+	width: 39.5vw;
+}
+
+.w35 {
+	width: 35vw;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w15 {
+	width: 15vw;
+}
+
+.wfill {
+	width: -webkit-fill-available;
+}
+
+.p03 {
+	padding: 0 3.5vw; 
+}
+
+.frow {
+	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center;
+}
+
+.overx {
+	overflow-x: hidden; overflow-y: auto;
+}
+
+.overy {
+	overflow: auto;
+}
+
+/** NAVBAR **/
+#navbar {
+	height: 5vw; box-sizing: border-box; line-height: 1em;
+	border-bottom: var(--brd1); position: fixed; top: 0;
+	display: flex; align-items: center; justify-content: space-between;
+	background-image: url(bg1.png); transition: 0.5s ease-out; z-index: 9;
+	background-size: cover; background-attachment: fixed; background-repeat: no-repeat;
+}
+
+body.dark #navbar { 
+	background-image: url(bg2.png); transition: 0.5s ease-out;
+}
+
+.navlinks {
+	display: flex; position: relative;
+}
+
+.navlink {
+  text-transform: uppercase; text-decoration: none;
+  color: rgba(var(--bg1)); margin-right: 8.5vw; 
+  position: relative; padding-bottom: 5px;
+}
+
+.underline {
+  position: absolute; bottom: 0; left: 0;
+  width: 0; height: 1px;
+  background-color: rgba(var(--bg1) / var(--op85));
+  transition: transform 0.3s, width 0.3s; transform-origin: left center;
+}
+
+.navlink.current ~ .underline,
+.navlink:hover ~ .underline {
+  transform: scaleX(0.5) translateX(0);
+}
+
+.navlink.current ~ .underline {
+  width: 50%;
+}
+
+.navright {
+	font-family: 'Font Awesome 5 Free'; font-weight: 400; cursor: pointer; color: rgba(var(--bg1) / var(--op85));
+}
+
+.navright a {
+	font-family: 'Font Awesome 5 Brands'; color: rgba(var(--bg1) / var(--op85)); margin-right: 1.1vw;
+}
+
+.navright i:hover {
+	color: var(--acc1); transition: 0.5s ease-out;
+}
+
+.navright i {
+	font-style: normal; transition: 0.5s ease-out;
+}
+
+body.dark .lightswitch {
+	font-weight: 800;
+}
+
+#wrapper {
+	box-sizing: border-box; padding-bottom: 1.5vw;
+}
+
+/** NAME + DESCRIPTION **/
+.header {
+	line-height: 0;
+	display: flex; flex-direction: column; flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.header h2 {
+	color: var(--acc1); font-family: Fjalla One; font-size: 5.5vw;
+}
+
+.header span {
+	line-height: 1em;
+}
+
+.container {
+  height: auto; 
+}
+
+.container i {
+	font-family: 'Font Awesome 5 Free'; font-size: 1.5em; color: rgba(var(--bg1) / var(--op85)); font-weight: 800; font-style: normal;
+}
+
+.container a {
+	cursor: pointer;
+}
+
+h3 {
+  text-transform: uppercase; font-family: Fjalla One; font-size: 1.8em;
+}
+
+.line {
+	background: rgba(var(--bg1) / var(--op85)); height: 1px;
+}
+
+
+.tit span {
+	color: rgba(var(--bg1) / var(--op25));
+}
+
+.dsc {
+	height: 10em; overflow: auto; 
+	    text-align: justify;
+    padding-right: 1em;
+    box-sizing: border-box;
+}
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 845px) {
+	body {line-height: 4em; background-image: url(bg1-rot.png); width: 100%; overflow: auto;}
+	body.dark {background-image: url(bg2-rot.png);}
+	#navbar {background-image: url(bg1-rot.png); font-size: 3em; height: 10vw;}
+	body.dark #navbar {background-image: url(bg2-rot.png);}
+	#wrapper {margin-top: 15vw;}
+	.header {width: 100%; margin-top: 2vw; margin-bottom: 2vw;}
+	.header span {font-size: 2em; margin-left: 0 !important;}
+	.header h2 {font-size: 10em;}
+	.w45 {width: 100%;}
+	.dsc {font-size: 3em}
+        h3 {font-size:3.5em;}
+}
